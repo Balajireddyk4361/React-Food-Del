@@ -10,6 +10,11 @@ import rating_starts from './rating_starts.png'
 import remove_icon_red from './remove_icon_red.png'
 import add_icon_green from './add_icon_green.png'
 import add_icon_white from './add_icon_white.png'
+import facebook_icon from './facebook_icon.png'
+import twitter_icon from './twitter_icon.png'
+import linkedin_icon from './linkedin_icon.png'
+import cross_icon from './cross_icon.png'
+
 
 
 import menu_1 from './menu_1.png'
@@ -53,6 +58,9 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import app_store from './app_store.png'
+import play_store from './play_store.png'
+
 
 
 export const assets ={
@@ -68,7 +76,13 @@ export const assets ={
     rating_starts,
     remove_icon_red,
     add_icon_white,
-    add_icon_green
+    add_icon_green,
+    facebook_icon,
+    twitter_icon,
+   linkedin_icon,
+   play_store,
+   app_store,
+   cross_icon
     
     
 
@@ -153,7 +167,7 @@ export const food_list=[
     image:food_5,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Rolls'
  },
  {
     _id:'6',
@@ -161,7 +175,7 @@ export const food_list=[
     image:food_6,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Rolls'
  },
  {
     _id:'7',
@@ -169,7 +183,7 @@ export const food_list=[
     image:food_7,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Rolls'
  },
  {
     _id:'8',
@@ -177,7 +191,7 @@ export const food_list=[
     image:food_8,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Rolls'
  },
  {
     _id:'9',
@@ -185,7 +199,7 @@ export const food_list=[
     image:food_9,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Deserts'
  },
  {
     _id:'10',
@@ -193,7 +207,7 @@ export const food_list=[
     image:food_10,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Deserts'
  },
  {
     _id:'11',
@@ -201,7 +215,7 @@ export const food_list=[
     image:food_11,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Deserts'
  },
  {
     _id:'12',
@@ -209,7 +223,7 @@ export const food_list=[
     image:food_12,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Deserts'
  },
  {
     _id:'13',
@@ -217,7 +231,7 @@ export const food_list=[
     image:food_13,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'sandwitch'
  },
  {
     _id:'14',
@@ -225,7 +239,7 @@ export const food_list=[
     image:food_14,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'sandwitch'
  },
  {
     _id:'15',
@@ -233,7 +247,7 @@ export const food_list=[
     image:food_15,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'sandwitch'
  },
  {
     _id:'16',
@@ -241,7 +255,7 @@ export const food_list=[
     image:food_16,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'sandwitch'
  },
  {
     _id:'17',
@@ -249,7 +263,7 @@ export const food_list=[
     image:food_17,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'cake'
  },
  {
     _id:'18',
@@ -257,7 +271,7 @@ export const food_list=[
     image:food_18,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'cake'
  },
  {
     _id:'19',
@@ -265,7 +279,7 @@ export const food_list=[
     image:food_19,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'cake'
  },
  {
     _id:'20',
@@ -273,7 +287,7 @@ export const food_list=[
     image:food_20,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'cake'
  },
  {
     _id:'21',
@@ -281,7 +295,7 @@ export const food_list=[
     image:food_21,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pasta'
  },
  {
     _id:'22',
@@ -289,7 +303,7 @@ export const food_list=[
     image:food_22,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pasta'
  },
  {
     _id:'23',
@@ -297,7 +311,7 @@ export const food_list=[
     image:food_23,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pasta'
  },
  {
     _id:'24',
@@ -305,7 +319,7 @@ export const food_list=[
     image:food_24,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pasta'
  },
  {
     _id:'25',
@@ -313,7 +327,7 @@ export const food_list=[
     image:food_25,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pure veg'
  },
  {
     _id:'26',
@@ -321,7 +335,7 @@ export const food_list=[
     image:food_26,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pure veg'
  },
  {
     _id:'27',
@@ -329,7 +343,7 @@ export const food_list=[
     image:food_27,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pure veg'
  },
  {
     _id:'28',
@@ -337,7 +351,7 @@ export const food_list=[
     image:food_28,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'pure veg'
  },
  {
     _id:'29',
@@ -345,7 +359,7 @@ export const food_list=[
     image:food_29,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Noodles'
  },
  {
     _id:'30',
@@ -353,7 +367,7 @@ export const food_list=[
     image:food_30,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Noodles'
  },
  {
     _id:'31',
@@ -361,7 +375,7 @@ export const food_list=[
     image:food_31,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Noodles'
  },
  {
     _id:'32',
@@ -369,7 +383,7 @@ export const food_list=[
     image:food_32,
     price:400,
     description:'Food provides essential nutrients for overal health and well-being',
-    category:'salad'
+    category:'Noodles'
  },
 
 ]

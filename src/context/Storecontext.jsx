@@ -16,7 +16,7 @@ const StoreContextprovider =(props) => {
       }
    
       const removeFromCart = (itemId)=>{
-        setcartItems((prev)=>({...prev,[iremId]:prev[itemId]-1}))
+        setcartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
       }
       useEffect(()=>{
         console.log(cartItems)
